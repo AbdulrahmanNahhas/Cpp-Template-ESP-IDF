@@ -1,0 +1,29 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".vscode": true,
+    ".devcontainer": true,
+    "build": true
+  },
+  "hide-files.files": [
+    ".vscode",
+    ".devcontainer",
+    "build",
+    "sdkconfig"
+  ],
+  "idf.adapterTargetName": "esp32",
+  "editor.tokenColorCustomizations": {
+    "comments": "",
+    "textMateRules": []
+  },
+  "files.associations": {
+    "*.tcc": "cpp"
+  }
+}
