@@ -13,7 +13,7 @@ include_directories(
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 
 # This line defines the project name.
-project(LEARNING)
+project(TEMPLATE)
 
 
 
