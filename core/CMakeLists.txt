@@ -7,5 +7,5 @@ set(SOURCES ./main.cpp)
 idf_component_register(
   SRCS ${SOURCES}
   INCLUDE_DIRS .
-  REQUIRES component # components that you want to include in your app
+  REQUIRES freertos component # components that you want to include in your app
 )
