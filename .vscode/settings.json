@@ -7,18 +7,9 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    ".vscode": true,
-    ".devcontainer": true,
-    "build": true,
-    "sdkconfig": true
+    "**/Thumbs.db": true
   },
-  "hide-files.files": [
-    ".vscode",
-    ".devcontainer",
-    "build",
-    "sdkconfig"
-  ],
+  "hide-files.files": [],
   "idf.adapterTargetName": "esp32",
   "editor.tokenColorCustomizations": {
     "comments": "",
